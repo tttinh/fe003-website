@@ -1,5 +1,11 @@
+import Header from './components/header';
+
 const App = () => {
-  return <h1 className="text-9xl text-amber-500">App</h1>;
+  return (
+    <main>
+      <Header />
+    </main>
+  );
 };
 
 export default App;
